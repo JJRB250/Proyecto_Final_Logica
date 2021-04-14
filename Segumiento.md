@@ -5,7 +5,7 @@
 Hasta ahora hemos creado el repositorio en Github, hemos creado el Readme y lo editamos para la explicacion de que trataba este repositorio
 Subimos la cancion de rock en español
 ¿Que vamos a hacer?
-
+estamos a la espera de mas instrucciones del profesor
 
 
 ¿Que dificultades hemos tenido?
