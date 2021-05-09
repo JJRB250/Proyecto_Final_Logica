@@ -27,15 +27,32 @@ Esperar instrucciones del profesor.
 
 Al hacer el ejercicio habia un error que no nos dejaba adjuntar la letra de las canciones con las otras, pero al otrp dia le pedimos ayuda al profesor, y solucionamos el problema.
 
-## 3 de Mayo 
+## 4 de Mayo 
 ¿Que hemos hecho? 
 
-Hemos seguido las instruccuones del porfesor y el paso a paso que realiuzamos en clase por grupos .
+Actiualizar el repositorio guia.
 
 ¿Que vamos hacer?
 
-El profesor nos darara nuevas instrucciones para seguir adelantado el proyecto, revisaremos como vamos y si se debe mejorar alguna cosa en el.
+El profesor nos dara nuevas instrucciones para seguir adelantado el proyecto, revisaremos como vamos y si se debe mejorar alguna cosa en el.
 
 ¿Que dificultades hemos tenido?
 
-La dificultad mas compleja es nla de no coincidir con la misma letra de cacion que el resto de los compañeros y que este en la clase de genero requerido por el porfesor.
+Nos ha surgido un error al querer actualizar la ruta de la cancion en la ruta de Letras.csv
+
+## 6 de Mayo
+
+¿Que hemos hecho?
+
+La clase del dia de hoy ha sido solo para asesorias.
+
+¿Que vamos a hacer?
+
+El profesor nos ayudara con una asesoria para solucionar el problema del que hablamos antes.
+
+¿Que dificultades hemos tenido?
+
+Se nos presentaron problemas con el push, pero el dia de mañana lo solucionaremos con ayuda del profesor.
+
+
+
