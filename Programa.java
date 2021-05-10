@@ -169,8 +169,14 @@ public class Programa{
 			do{
 				System.out.println();
 				//TODO: Terminar la funcion para que imprima todos los caracteres especiales que use el programa
-				menu();
-				//TODO: Ojo falta validar la entrada de datos
+				imprimir("Ingrese una opcion asi: ");
+				imprimir("1. Buscar cancion");
+				imprimir("2. Reproducir cancion");
+				imprimir("3. Mostrar letra");
+				imprimir("4. Detener cancion");
+				imprimir("5. Imprimir lista de canciones");
+  				imprimir("6. Salir");
+			 	//TODO: Ojo falta validar la entrada de datos
 				//TODO: Recuerde usar el helper ConsoleInput y validar
 				centinela = ConsoleInput.getInt();
 
