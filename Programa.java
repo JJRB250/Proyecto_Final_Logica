@@ -84,14 +84,14 @@ System.out.println(" |. |. | .||.  '|..'|. |'..|' .||.  '|...'    ||......|  '|.
 System.out.println(" |_______________________________________________________________________________|");
 imprimir(" |                                                          	                 |");
 imprimir(" |                    Ingrese una opción así:		 	                 |");
-imprimir(" |                    1. Buscar canción			 	                 |");
+imprimir(" |                    1. Que canciones tenemos?			 	         |");
 imprimir(" |                    2. Reproducir canción			                 |");
 imprimir(" |                    3. Mostrar Letra				                 |");
 imprimir(" |                    4. Detener Canción				         |");
-imprimir(" |                    5. Imprimir lista de Canciones		                 |");
+imprimir(" |                    5. Nombre y autor de la cancion?		                 |");
 imprimir(" |                    6. Salir					                 |");
 imprimir(" |_______________________________________________________________________________|");
-imprimir("Numero? = ");
+imprimir("¿Que opcion desea? = ");
 			}
 
 	public static void main(String[] args) {
@@ -142,7 +142,7 @@ imprimir("Numero? = ");
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
 					
 					letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
-					//imprimir(letra_cancion.toString());
+					imprimir(letra_cancion.toString());
 				}
 
 				if(centinela == 4)
@@ -164,14 +164,10 @@ imprimir("Numero? = ");
 					fin_letra = ConsoleInput.stringToInt(info_canciones[indice_cancion][ConsoleData.FIN_CANCION]);
 
 					System.out.println();
-					imprimir("Inicio letra "+inicio_letra);
-					imprimir("Fin letra "+fin_letra);
 					imprimir("Nombre "+info_canciones[indice_cancion][ConsoleData.NOMBRE_CANCION]);
 					imprimir("Autor "+info_canciones[indice_cancion][ConsoleData.AUTOR_CANCION]);
 					imprimir("Archivo "+info_canciones[indice_cancion][ConsoleData.RUTA_CANCION]);
 
-					imprimir("Primera estrofa: "+canciones[inicio_letra]);
-					imprimir("Última estrofa: "+canciones[fin_letra]);
 					
 					//TODO:Convertir a unicode mayúsculas y caracteres especiales
 					//TODO:Explicar como funciona el archivo y como se analiza cada línea
