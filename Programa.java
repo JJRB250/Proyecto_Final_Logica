@@ -158,7 +158,7 @@ imprimir("¿Que opcion desea? = ");
 						audio.detener();
 					}
 
-			}while(centinela!=5);
+			}while(centinela!=4);
 		}
 		catch(Exception e)
 		{
